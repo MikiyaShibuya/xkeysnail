@@ -1,0 +1,10 @@
+[Unit]
+Description=Boot timer for xkeysnail
+
+[Timer]
+OnBootSec=1min
+#OnUnitActiveSec=10s
+Unit=test.service
+
+[Install]
+WantedBy=multi-user.target

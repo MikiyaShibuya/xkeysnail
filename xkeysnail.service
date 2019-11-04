@@ -1,0 +1,14 @@
+[Unit]
+Description=xkeysnail keymapper
+
+[Service]
+ExecStart=/home/mikiya/xkeysnail/launcher.sh
+#ExecStart=/opt/xkeysnail/bin/xkeysnail /opt/xkeysnail/config.py
+#ExecStartPre=/usr/bin/xhost +SI:localuser:root
+Restart=always
+Type=simple
+
+Environment=DISPLAY=:1
+
+[Install]
+WantedBy=multi-user.target
