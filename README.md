@@ -40,3 +40,8 @@ python check_perm.py
 systemctl --user enable xkeysnail
 systemctl --user start xkeysnail
 ```
+
++ setup keybind for en/jp switching
+set Henkan shortcut on Settings -> Keyboard -> Typing -> Switch to next input source
+
+
